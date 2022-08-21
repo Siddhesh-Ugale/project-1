@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#710243), to(rgba(113, 2, 67, 0.6)));
+  background-image: linear-gradient(to bottom right, #710243, rgba(113, 2, 67, 0.6));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  place-content: center;
+}
+
+.form-content {
+  font-family: 'Poppins';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  height: 80%;
+  background-color: white;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+}
+
+.form-content .bg-section {
+  background-image: url("img/2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+  width: 45%;
+  padding: 2rem;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-content .bg-section .content {
+  -webkit-backdrop-filter: blur(0.5rem);
+          backdrop-filter: blur(0.5rem);
+  padding: 1rem;
+  width: 25rem;
+}
+
+.form-content .bg-section .content h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 7.2rem;
+}
+
+.form-content .bg-section .content hr {
+  margin-top: .5rem;
+  width: 3rem;
+  border: none;
+  border-radius: 5px;
+  height: 3px;
+  background-color: white;
+}
+
+.form-content .bg-section .content h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 1rem 0 .5rem 0;
+}
+
+.form-content .bg-section .content h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: .5rem 0 .5rem 0;
+}
+
+.form-content .bg-section .content p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.form-content .bg-section .content h5 {
+  font-size: 1.25rem;
+  margin: 8rem 0 -.5rem 0;
+  font-weight: 500;
+}
+
+.form-content .form-section {
+  padding: 2rem;
+}
+
+.form-content .form-section h2 {
+  margin: 1rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.form-content .form-section h3 {
+  font-size: 1rem;
+  margin: -.5rem 1rem 1rem 1rem;
+  font-weight: 400;
+  color: gray;
+}
+
+.form-content .form-section label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1rem;
+}
+
+.form-content .form-section input {
+  width: 20rem;
+  padding: .75rem;
+  margin: 1rem;
+  border: 2.5px solid #efefef;
+  border-radius: .25rem;
+  font-size: .9rem;
+  font-weight: 600;
+  -webkit-transition: border 1s ease-in;
+  transition: border 1s ease-in;
+}
+
+.form-content .form-section input:active {
+  border: 2px solid #710243;
+}
+
+.form-content .form-section button {
+  -webkit-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 20rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1rem;
+  padding: .75rem;
+  border: none;
+  border-radius: .25rem;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.form-content .form-section button:hover {
+  background-color: #710243;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
